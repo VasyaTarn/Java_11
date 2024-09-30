@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/cafe-database
+    username: vst
+    password: admin
+    driverClassName: org.postgresql.Driver
+
+  flyway:
+    enabled: true
+    user: vst
+    password: admin
+    schemas: public
+    url: jdbc:postgresql://localhost:5433/cafe-database
